@@ -4,55 +4,6 @@
 
 A supplychain smart contract written in Solidity and deployed on the Rinkeby test network. This Smart contract demonstrates how supplychains can improve authenticity, efficiency and privacy between seller and buyer.
 
- The smart Contracts simulates the Parmigiano Reggiano supplychain.
-
-## Directory Structor
-
-- Ethereum_SupplyChian
-  - Diagrams
-    - Parmigiano_Reggiano_Activity_Diagram.png
-    - Parmigiano_Reggiano_DataModel_Diagram.png
-    - Parmigiano_Reggiano_Sequence_Diagram.png 
-    - Parmigiano_Reggiano_State_Diagram.png
-  - build/contracts (compiled contracts)
-    - ConsumerRole.json
-    - DistributorRole.json
-    - FarmerRole.json
-    - Mirgations.json
-    - Ownable.json
-    - RetailerRole.json
-    - Roles.json
-    - SupplyChain.json
-  - contracts 
-    - parmigianoaccesscontrol
-      - ConsumerRole.sol 
-      - Distributor.sol
-      - FarmerRole.sol
-      - RetailerRole.sol
-      - Roles.sol
-    - parmigianobase
-      - SupplyChain.sol 
-    - parmigianocore
-      - Ownable.sol
-    - Migrations.sol 
-  - migrations
-    - 1_initial_migration.js 
-    - 2_deploy_contracts.js
-  - js 
-    - app.js 
-    - truffle-contract.js
-  - test 
-    - TestSupplychain.js 
-  - index.html 
-  - package-lock.json
-  - package.json
-  - readme.md
-  - style.css
-  - truffle.js
-
-
----
-
 ## Contract Diagrams
 
 ### Activity Diagram
